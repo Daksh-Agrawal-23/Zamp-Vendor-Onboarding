@@ -1,0 +1,2 @@
+<h1>Vendor emails</h1><p class=mut>Every message the system sends or drafts to a vendor. Set SMTP_HOST to send for real; otherwise they stay here as drafts.</p>
+{% for m in rows %}<div class=card><b>{{m.subject}}</b> <span class=mut>to {{m.to_addr or '(no email on file)'}} · {{m.kind}} · {{'sent' if m.sent else 'draft'}} · {{m.name}}</span><pre>{{m.body}}</pre></div>{% else %}<div class=card>No emails yet.</div>{% endfor %}

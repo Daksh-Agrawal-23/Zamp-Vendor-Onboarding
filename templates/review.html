@@ -1,0 +1,9 @@
+<h1>Review queue</h1><p class=mut>Cases the system will not decide alone. Every decision is recorded with your name and a reason in the tamper-evident audit trail. High-risk cases need two different approvers.</p>
+{% for i in items %}<div class=card><b>{{i.name}}</b> <span class=mut>risk {{i.tier}} - waiting {{i.age}} min</span>{% for w in i.why %}<div class="f E">{{w}}</div>{% endfor %}
+{% if i.tier=='High' %}<p class=mut>Approvals so far: {{i.approvals|length}} of 2 {{('(' ~ i.approvals|join(', ') ~ ')') if i.approvals}}</p>{% endif %}
+{% if i.callback %}<div class=f style="border-color:#b4531a"><b>Call-back required.</b> Phone/email on the existing vendor record (use these, never the ones in this submission): <b>{{i.master_phone or 'not on file'}}</b> / <b>{{i.master_email or 'not on file'}}</b>. Contact given in this submission: {{i.new_email or '-'}}.</div>{% endif %}
+<form method=post action="/review/{{i.id}}" style="margin-top:10px"><div class=row><div><label>Decision</label><select name=decision><option>Approved</option><option>Pending</option><option>Rejected</option></select></div>
+<div><label>Reason (required)</label><input name=reason placeholder="Why" required minlength=5></div></div>
+{% if i.callback %}<label><input type=checkbox name=callback_done value=1 style="width:auto"> I called the number on the existing vendor record and the vendor confirmed the change</label>{% endif %}
+<p><button>Record decision</button> <a class="btn sec" href="/run/{{i.id}}">Details</a></p></form></div>
+{% else %}<div class=card class=mut>Queue is empty.</div>{% endfor %}

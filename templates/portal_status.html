@@ -1,0 +1,4 @@
+<h1 style="font-size:22px">{{name}}</h1><div class=card aria-live=polite><div id=st class="status warn">Checking your documents</div><p id=ms style="white-space:pre-wrap"></p><p><a id=again hidden href="/portal?resubmit={{tok}}">Correct and resubmit</a></p></div>
+<p><small>Keep this page's link to check progress later. We will not ask for passwords or payments.</small></p>
+<script>var t;function tick(){fetch('/portal/api/{{tok}}').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){var s=document.getElementById('st');s.textContent=d.label;s.className='status '+d.cls;document.getElementById('ms').textContent=d.message;
+if(d.done){clearInterval(t);if(d.status==='Pending'||(d.fixes&&d.fixes.length))document.getElementById('again').hidden=false}}).catch(function(){document.getElementById('ms').textContent='Cannot reach the server right now; retrying...'})}tick();t=setInterval(tick,2000);</script>
