@@ -3,7 +3,7 @@
 A working process that takes a **vendor submission** (details plus a GST certificate, a cancelled cheque and optionally a PAN card or Udyam certificate) and returns **Approved, Pending (the vendor can fix it), Escalated (a person decides) or Rejected**, with every check and the reason recorded. For anything not approved, it writes back to the vendor in plain language.
 
 - **Live app:** https://vendoronboarding.indiasouthcentral.cloudapp.azure.com (sign in as `interviewer` / `Zamp-Demo-2026`; the login page and the [demo guide](https://vendoronboarding.indiasouthcentral.cloudapp.azure.com/guide) explain every scenario)
-- **Demo video:** _add link here_
+- **Demo video:** [Drive Link](https://drive.google.com/file/d/1KuMzgP2VpwtRWiqA_VziVwFrTq1h_ReT/view?usp=sharing)
 - **Start reading here:** [The rules and why](docs/RULES.md) · [How documents are read](docs/HOW_DOCUMENTS_ARE_READ.md) · [Evidence: what I measured](docs/EVIDENCE.md) · [Design decisions](DECISIONS.md) · [Process step by step](PROCESS.md)
 
 > **What is real and what is simulated (please read).** The documents are really read: OCR runs on every uploaded image or PDF and the values it finds are compared with what the vendor typed. The government registries (GST, PAN, Udyam, bank account verification) are **simulated**, because there is no public access to them. The IFSC bank directory, MCA company records (1.05 million), the OFAC sanctions list and the test images are real public data. Only fictional vendors can be Approved. [`docs/ROADBLOCKS.md`](docs/ROADBLOCKS.md) lists what production would need.
