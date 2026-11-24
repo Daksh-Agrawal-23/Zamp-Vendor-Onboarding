@@ -1,0 +1,180 @@
+{
+ "n_sample": 3000,
+ "positives": {
+  "suffix_pvt_ltd": {
+   "pass": 3000
+  },
+  "suffix_p_ltd": {
+   "pass": 3000
+  },
+  "ms_prefix_lower": {
+   "pass": 3000
+  },
+  "no_suffix": {
+   "pass": 3000
+  },
+  "punct_spaces": {
+   "pass": 3000
+  },
+  "order_swap": {
+   "pass": 2895
+  },
+  "ampersand": {
+   "pass": 127
+  },
+  "abbr_industries": {
+   "pass": 43
+  },
+  "abbr_enterprises": {
+   "pass": 31
+  },
+  "abbr_services": {
+   "pass": 131,
+   "conflict": 10
+  },
+  "abbr_constructions": {
+   "pass": 16
+  },
+  "abbr_solutions": {
+   "pass": 119,
+   "conflict": 1
+  },
+  "abbr_technologies": {
+   "pass": 76,
+   "conflict": 1
+  },
+  "abbr_international": {
+   "pass": 20
+  },
+  "abbr_manufacturing": {
+   "pass": 4
+  },
+  "abbr_engineering": {
+   "pass": 21
+  },
+  "abbr_laboratories": {
+   "pass": 2
+  },
+  "abbr_corporation": {
+   "review": 5
+  },
+  "the_dropped": {
+   "pass": 4
+  }
+ },
+ "negatives": {
+  "conflict": 700,
+  "review": 15,
+  "pass": 1
+ },
+ "failures": [
+  [
+   "abbr_services",
+   "UAS MULTISERVICES PRIVATE LIMITED",
+   "UAS MULTISVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_services",
+   "CITIGUIDE MULTISERVICES PRIVATE LIMITED",
+   "CITIGUIDE MULTISVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_services",
+   "LEONS INFRASERVICES PRIVATE LIMITED",
+   "LEONS INFRASVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_solutions",
+   "NARAYANI INFRASOLUTIONS PRIVATE LIMITED",
+   "NARAYANI INFRASOLN PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_services",
+   "BRB ITSERVICES PRIVATE LIMITED",
+   "BRB ITSVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_services",
+   "KSHITIZ TRADE AND MULTISERVICES PRIVATE LIMITED",
+   "KSHITIZ TRADE AND MULTISVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_services",
+   "SUNEETA MULTISERVICES (OPC) PRIVATE LIMITED",
+   "SUNEETA MULTISVCS (OPC) PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_services",
+   "NANOSOFT GLOBAL INFOSERVICES PRIVATE LIMITED",
+   "NANOSOFT GLOBAL INFOSVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_corporation",
+   "RLVC MUTUAL BENEFIT CORPORATION LIMITED",
+   "RLVC MUTUAL BENEFIT CORPN LIMITED",
+   "review"
+  ],
+  [
+   "abbr_services",
+   "SKYNET MULTISERVICES PRIVATE LIMITED",
+   "SKYNET MULTISVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_corporation",
+   "FS PRADHAN GROUP AND CORPORATION PRIVATE LIMITED",
+   "FS PRADHAN GROUP AND CORPN PRIVATE LIMITED",
+   "review"
+  ],
+  [
+   "abbr_corporation",
+   "MOON CORPORATION LIMITED",
+   "MOON CORPN LIMITED",
+   "review"
+  ],
+  [
+   "abbr_services",
+   "DEVBHOOMI MULTISERVICES PRIVATE LIMITED",
+   "DEVBHOOMI MULTISVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_services",
+   "PSV MULTISERVICES PRIVATE LIMITED",
+   "PSV MULTISVCS PRIVATE LIMITED",
+   "conflict"
+  ],
+  [
+   "abbr_corporation",
+   "UTKARSH SHARMA CORPORATION PRIVATE LIMITED",
+   "UTKARSH SHARMA CORPN PRIVATE LIMITED",
+   "review"
+  ],
+  [
+   "abbr_corporation",
+   "KPS SALES CORPORATION PRIVATE LIMITED",
+   "KPS SALES CORPN PRIVATE LIMITED",
+   "review"
+  ],
+  [
+   "abbr_technologies",
+   "ASVINS LIFETECHNOLOGIES PRIVATE LIMITED",
+   "ASVINS LIFETECH PRIVATE LIMITED",
+   "conflict"
+  ]
+ ],
+ "false_pass_examples": [
+  [
+   "CHHAVI SINGH ENGINEERING PRIVATE LIMITED",
+   "CHHAVI ENGINEERINGS PRIVATE LIMITED"
+  ]
+ ]
+}

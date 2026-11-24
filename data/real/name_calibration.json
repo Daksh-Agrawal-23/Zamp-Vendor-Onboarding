@@ -1,0 +1,23 @@
+{
+ "benign_pass_rate_at_85": {
+  "pvt_ltd": "100.0%",
+  "pvt_dot": "100.0%",
+  "private_ltd": "100.0%",
+  "p_ltd": "100.0%",
+  "ms_prefix": "100.0%",
+  "title_case": "100.0%",
+  "and_amp": "100.0%",
+  "dbl_space": "100.0%",
+  "no_suffix": "100.0%",
+  "trailing_dot": "100.0%"
+ },
+ "different_company_nearest_score_share_at_or_above": {
+  "95": "0.3%",
+  "90": "3.1%",
+  "85": "10.2%",
+  "80": "21.7%",
+  "70": "48.6%"
+ },
+ "n_queries": 7904,
+ "note": "share of real companies whose nearest DIFFERENT company scores >= threshold (sample pool 300k active)"
+}

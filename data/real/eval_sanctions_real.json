@@ -1,0 +1,34 @@
+{
+ "GLEIF (IN/GB/US)": {
+  "n": 6000,
+  "th85": 91,
+  "th90": 13,
+  "th95": 3,
+  "examples95": [
+   [
+    "RAMYA",
+    "RAMYA",
+    100
+   ],
+   [
+    "WALI MOHAMMAD",
+    "WALI MOHAMMAD",
+    100
+   ],
+   [
+    "AMBER",
+    "AMBER",
+    100
+   ]
+  ],
+  "th100": 3
+ },
+ "MCA (UP/MH)": {
+  "n": 6000,
+  "th85": 89,
+  "th90": 6,
+  "th95": 0,
+  "examples95": [],
+  "th100": 0
+ }
+}

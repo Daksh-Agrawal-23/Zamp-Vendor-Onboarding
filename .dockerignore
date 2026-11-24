@@ -1,0 +1,7 @@
+data/real/raw/
+data/real/hf/
+data/real/mca/
+data/real/docs_real/
+data/app.db
+data/uploads/
+__pycache__/

@@ -1,0 +1,67 @@
+{
+ "ALL": {
+  "n": 90,
+  "supplier_gstin_recovered": 60,
+  "no_wrong_gstin": 90
+ },
+ "classic/clean": {
+  "n": 17,
+  "supplier_gstin_recovered": 15,
+  "no_wrong_gstin": 17
+ },
+ "classic/photo": {
+  "n": 13,
+  "supplier_gstin_recovered": 5,
+  "no_wrong_gstin": 13
+ },
+ "classic/scan": {
+  "n": 9,
+  "supplier_gstin_recovered": 8,
+  "no_wrong_gstin": 9
+ },
+ "handwritten/clean": {
+  "n": 3,
+  "supplier_gstin_recovered": 3,
+  "no_wrong_gstin": 3
+ },
+ "handwritten/photo": {
+  "n": 7,
+  "supplier_gstin_recovered": 3,
+  "no_wrong_gstin": 7
+ },
+ "handwritten/scan": {
+  "n": 3,
+  "supplier_gstin_recovered": 3,
+  "no_wrong_gstin": 3
+ },
+ "minimal/clean": {
+  "n": 8,
+  "supplier_gstin_recovered": 7,
+  "no_wrong_gstin": 8
+ },
+ "minimal/photo": {
+  "n": 13,
+  "supplier_gstin_recovered": 6,
+  "no_wrong_gstin": 13
+ },
+ "minimal/scan": {
+  "n": 8,
+  "supplier_gstin_recovered": 7,
+  "no_wrong_gstin": 8
+ },
+ "thermal/clean": {
+  "n": 1,
+  "supplier_gstin_recovered": 1,
+  "no_wrong_gstin": 1
+ },
+ "thermal/photo": {
+  "n": 5,
+  "supplier_gstin_recovered": 1,
+  "no_wrong_gstin": 5
+ },
+ "thermal/scan": {
+  "n": 3,
+  "supplier_gstin_recovered": 1,
+  "no_wrong_gstin": 3
+ }
+}

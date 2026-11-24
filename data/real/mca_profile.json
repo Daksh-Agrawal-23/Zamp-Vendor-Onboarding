@@ -1,0 +1,106 @@
+{
+ "rows": 1051234,
+ "kinds": {
+  "company_cin": 854324,
+  "llpin": 195343,
+  "other": 1567
+ },
+ "status": {
+  "Active": 769121,
+  "Strike Off": 240474,
+  "Amalgamated": 10695,
+  "Converted to LLP": 8782,
+  "Dissolved (Liquidated)": 6637,
+  "Under process of striking off": 5543,
+  "Inactive for e-filing": 4425,
+  "Under Liquidation": 2689,
+  "Converted and Dissolved": 710,
+  "Under CIRP": 664
+ },
+ "cin_valid_rate": 0.99485,
+ "cin_invalid_examples": [
+  "U67190UP2020PLN125909",
+  "U65999UP2019PLN121327",
+  "U65999UP2019PLN121440",
+  "U65999UP2019PLN121505",
+  "U65999UP2019PLN121509"
+ ],
+ "cin_class_counts": {
+  "PTC": 749121,
+  "PLC": 36279,
+  "NPL": 29805,
+  "OPC": 27068,
+  "FTC": 6830,
+  "PLN": 4289,
+  "SGC": 356,
+  "GAP": 189
+ },
+ "cin_roc_state_codes": {
+  "MH": 459779,
+  "UP": 240248,
+  "PN": 137802,
+  "UW": 7675,
+  "MR": 6003,
+  "ME": 2703,
+  "DL": 48,
+  "UR": 18,
+  "HR": 13,
+  "WB": 7,
+  "GJ": 6,
+  "KA": 6
+ },
+ "cin_year_eq_reg_year": 0.9997,
+ "cin_class_vs_name_match": 0.9469,
+ "cin_class_vs_name_n": 823802,
+ "state_field_values": {
+  "maharashtra": 606325,
+  "uttar pradesh": 247999
+ },
+ "top_name_endings": {
+  "LIMITED": 150005,
+  "PRIVATE LIMITED": 136569,
+  "LLP": 36765,
+  "LTD": 6457,
+  "COMPANY LIMITED": 5688,
+  "PVT LTD": 5004,
+  "FOUNDATION": 4564,
+  "SOLUTIONS LLP": 1958,
+  "SERVICES LLP": 1846,
+  "NIDHI LIMITED": 1271,
+  "VENTURES LLP": 907,
+  "ENTERPRISES LLP": 802,
+  "DEVELOPERS LLP": 772,
+  "P LTD": 766,
+  "INDIA LIMITED": 709,
+  "TECHNOLOGIES LLP": 688,
+  "REALTY LLP": 600,
+  "INDIA LLP": 549,
+  "HOSPITALITY LLP": 498,
+  "ADVISORS LLP": 455,
+  "INFRA LLP": 442,
+  "ASSOCIATION": 436,
+  "ASSOCIATES LLP": 395,
+  "WELFARE FOUNDATION": 388,
+  "CONSULTANTS LLP": 376
+ },
+ "strike_off_share": 0.2684,
+ "addresses_with_>=50_entities": 47,
+ "addresses_with_>=10": 1084,
+ "top_address_counts": [
+  8799,
+  505,
+  397,
+  127,
+  121
+ ],
+ "share_of_entities_at_10plus_address": 0.0283,
+ "distinct_entities_sharing_normalised_name_pct": 0.0217,
+ "max_same_name": 11,
+ "same_name_top": {
+  "": 11,
+  "PATEL": 5,
+  "MEHTA": 5,
+  "ANKUSH COMMOTRADE": 4,
+  "KIMURA CHEMICAL PLANTS": 4
+ }
+}

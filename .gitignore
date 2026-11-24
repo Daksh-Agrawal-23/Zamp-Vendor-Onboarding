@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/app.db*
+data/uploads/
+data/audit_anchor.log
+.secret*
+.env

@@ -1,0 +1,175 @@
+{
+ "happy": {
+  "title": "1. Clean vendor (happy path)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Mani Crop Industries Private Limited",
+   "gstin": "29UNNCM2011P1ZS",
+   "pan": "UNNCM2011P",
+   "cin": "U45750KA2006PTC163655",
+   "state": "Karnataka",
+   "ifsc": "KKBK0RTGSMI",
+   "account": "79337915668",
+   "address": "95, Station Road, Bengaluru, Karnataka",
+   "expected_annual_value": 1200000
+  },
+  "files": {
+   "gst_cert": "data/demo/happy_gst.png",
+   "cheque": "data/demo/happy_cheque.png"
+  }
+ },
+ "typo": {
+  "title": "2. Typo in GSTIN (vendor-fixable)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Automotives Balaji Services Private Limited",
+   "gstin": "O9JKKCA2056S1Z7",
+   "pan": "JKKCA2056S",
+   "cin": "U88423UP2019PTC761228",
+   "state": "Uttar Pradesh",
+   "ifsc": "UTIB0000248",
+   "account": "782602416835",
+   "address": "42, Link Road, Noida, Uttar Pradesh",
+   "expected_annual_value": 1200000
+  },
+  "files": {
+   "gst_cert": "data/demo/typo_gst.png",
+   "cheque": "data/demo/typo_cheque.png"
+  }
+ },
+ "photo": {
+  "title": "3. Phone photo of GST certificate",
+  "form": {
+   "country": "IN",
+   "legal_name": "Sahu Shreeji Enterprises Private Limited",
+   "gstin": "07PKXCS3906H1ZW",
+   "pan": "PKXCS3906H",
+   "cin": "U10506DL2012PTC586858",
+   "state": "Delhi",
+   "ifsc": "HDFC0999999",
+   "account": "36549440555",
+   "address": "55, Link Road, New Delhi, Delhi",
+   "expected_annual_value": 1200000
+  },
+  "files": {
+   "gst_cert": "data/demo/photo_gst.jpg",
+   "cheque": "data/demo/photo_cheque.png"
+  }
+ },
+ "blur": {
+  "title": "4. Unreadable photo (asks for re-upload)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Bhatia Station Logistics Private Limited",
+   "gstin": "33WCFCB3122Y1ZJ",
+   "pan": "WCFCB3122Y",
+   "cin": "U83752TN2011PTC216083",
+   "state": "Tamil Nadu",
+   "ifsc": "YESB0000001",
+   "account": "07782758400",
+   "address": "154, Industrial Area Phase 2, Chennai, Tamil Nadu",
+   "expected_annual_value": 1200000
+  },
+  "files": {
+   "gst_cert": "data/demo/blur_gst.jpg",
+   "cheque": "data/demo/blur_cheque.png"
+  }
+ },
+ "cancelled": {
+  "title": "5. GSTIN cancelled in registry (reject)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Farm Pune Textiles LLP",
+   "gstin": "08AGHFF2492C1Z8",
+   "pan": "AGHFF2492C",
+   "cin": "",
+   "state": "Rajasthan",
+   "ifsc": "BARB0TREASU",
+   "account": "91331663715",
+   "address": "55, MG Road, Jaipur, Rajasthan",
+   "expected_annual_value": 1200000
+  },
+  "files": {
+   "gst_cert": "data/demo/cancelled_gst.png",
+   "cheque": "data/demo/cancelled_cheque.png"
+  }
+ },
+ "third": {
+  "title": "6. Cheque belongs to a different party (escalate)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Kamdhenu Rajesh Logistics LLP",
+   "gstin": "06YPEFK6436P1ZC",
+   "pan": "YPEFK6436P",
+   "cin": "",
+   "state": "Haryana",
+   "ifsc": "HDFC0999999",
+   "account": "816268529858",
+   "address": "147, Link Road, Gurugram, Haryana",
+   "expected_annual_value": 1200000
+  },
+  "files": {
+   "gst_cert": "data/demo/third_gst.png",
+   "cheque": "data/demo/third_cheque.png"
+  }
+ },
+ "bankchange": {
+  "title": "7. Bank-detail change (call-back check)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Kalyan Srinivasa Engineering LLP",
+   "gstin": "08CFBFK0174K1Z1",
+   "pan": "CFBFK0174K",
+   "cin": "",
+   "state": "Rajasthan",
+   "ifsc": "HDFC0999999",
+   "account": "01406349445",
+   "address": "158, Station Road, Jaipur, Rajasthan",
+   "expected_annual_value": 1200000,
+   "bank_change": true
+  },
+  "files": {
+   "gst_cert": "data/demo/bankchg_gst.png",
+   "cheque": "data/demo/bankchg_cheque.png"
+  }
+ },
+ "retired": {
+  "title": "8. Bank merged: old IFSC (vendor-fixable)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Charitable Logistic Foods Private Limited",
+   "gstin": "36HESCC0655T1ZC",
+   "pan": "HESCC0655T",
+   "cin": "U92155TG2008PTC670005",
+   "state": "Telangana",
+   "ifsc": "SYNB0000001",
+   "account": "94694003130795",
+   "address": "167, Industrial Area Phase 2, Hyderabad, Telangana",
+   "expected_annual_value": 1200000
+  },
+  "files": {
+   "gst_cert": "data/demo/retired_gst.png",
+   "cheque": "data/demo/retired_cheque.png"
+  }
+ },
+ "outage": {
+  "title": "9. GST portal down (never a silent pass)",
+  "form": {
+   "country": "IN",
+   "legal_name": "Apparels Radha Services Private Limited",
+   "gstin": "08VHCCA7194H1ZI",
+   "pan": "VHCCA7194H",
+   "cin": "U04743RJ2021PTC887733",
+   "state": "Rajasthan",
+   "ifsc": "UTIB0000248",
+   "account": "568002105426",
+   "address": "7, MG Road, Jaipur, Rajasthan",
+   "expected_annual_value": 1200000,
+   "down_gst": true
+  },
+  "files": {
+   "gst_cert": "data/demo/outage_gst.png",
+   "cheque": "data/demo/outage_cheque.png"
+  }
+ }
+}

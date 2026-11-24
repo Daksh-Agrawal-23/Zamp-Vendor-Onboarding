@@ -1,0 +1,17 @@
+{
+ "source": "GLEIF public API (api.gleif.org), fetched 2026-11-23, entities with legal address in India",
+ "gstin_checked": 3000,
+ "gstin_valid": 2998,
+ "cin_checked": 1878,
+ "cin_valid": 1878,
+ "failures": [
+  {
+   "value": "24ABECA5640AIZA",
+   "type": "I typed for 1; repairable to 24ABECA5640A1ZA"
+  },
+  {
+   "value": "24ATKPP6666Q1ZN",
+   "type": "wrong check character, not repairable"
+  }
+ ]
+}

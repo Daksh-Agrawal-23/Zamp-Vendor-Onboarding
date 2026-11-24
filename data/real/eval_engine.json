@@ -1,0 +1,313 @@
+{
+ "clean/clean": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/ampersand": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/double_space": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/lower": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/ms_prefix": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/p_ltd": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/pvt": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/trailing_dot": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "noise/upper": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/account_not_confirmed": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/bank_change": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/bank_differs_from_ifsc": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/cancelled_gstin": {
+  "dev": [
+   4,
+   4
+  ],
+  "held": [
+   2,
+   2
+  ]
+ },
+ "mutated/cheque_ifsc_differs": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/cin_malformed": {
+  "dev": [
+   49,
+   49
+  ],
+  "held": [
+   55,
+   55
+  ]
+ },
+ "mutated/gst_cert_other_entity": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/gstin_transposed": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/gstin_typo": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/gstin_wrong_pan": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/ifsc_bad_format": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/ifsc_unknown_branch": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/missing_bank": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/name_vs_registry": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/pan_malformed": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/po_box_plus_webmail": {
+  "dev": [
+   49,
+   49
+  ],
+  "held": [
+   55,
+   55
+  ]
+ },
+ "mutated/sanctioned_name": {
+  "dev": [
+   30,
+   30
+  ],
+  "held": [
+   30,
+   30
+  ]
+ },
+ "mutated/state_mismatch": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/suspended_gstin": {
+  "dev": [
+   4,
+   4
+  ],
+  "held": [
+   2,
+   2
+  ]
+ },
+ "mutated/third_party_account": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "mutated/udyam_malformed": {
+  "dev": [
+   84,
+   84
+  ],
+  "held": [
+   88,
+   88
+  ]
+ },
+ "summary": {
+  "false_block": [
+   1548,
+   1548
+  ],
+  "recall": [
+   3032,
+   3032
+  ]
+ },
+ "failures": []
+}

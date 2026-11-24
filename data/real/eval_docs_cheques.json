@@ -1,0 +1,21 @@
+{
+ "n": 30,
+ "none": 11,
+ "exists": 19,
+ "by_bank": {
+  "syndicate": {
+   "none": 8
+  },
+  "icici": {
+   "exists": 5,
+   "none": 1
+  },
+  "axis": {
+   "exists": 6,
+   "none": 2
+  },
+  "canara": {
+   "exists": 8
+  }
+ }
+}

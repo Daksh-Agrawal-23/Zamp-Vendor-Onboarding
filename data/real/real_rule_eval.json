@@ -1,0 +1,131 @@
+{
+ "counts": {
+  "gstin_valid": 2998,
+  "pan_struct_ok": 2998,
+  "pan5_checked": 2747,
+  "pan5_match": 2379,
+  "p_checked": 1725,
+  "p_company_suffix": 0,
+  "f_checked": 1184,
+  "f_has_suffix": 337,
+  "gst_state_checked": 1054,
+  "gst_state_match": 1054,
+  "cin_valid": 1878,
+  "cin_state_checked": 839,
+  "cin_state_match": 811,
+  "cin_name_checked": 1850,
+  "cin_name_match": 1847,
+  "c_checked": 33,
+  "c_has_suffix": 32
+ },
+ "examples": {
+  "pan5": [
+   [
+    "DVYPP6595K",
+    "NOUFAL PAROL KUTTIYIL"
+   ],
+   [
+    "ACAPB7828H",
+    "RAJIYA SULTAN"
+   ],
+   [
+    "AKRPK7743H",
+    "M. S. EENTERPRISES"
+   ],
+   [
+    "ARHPS0690J",
+    "ANAY INTERNATIONAL"
+   ],
+   [
+    "AFOPN1498N",
+    "ARIHANT MACHINERY INC"
+   ],
+   [
+    "AFYPR2674A",
+    "BHAGIRATHI RICE PRODUCTS"
+   ],
+   [
+    "AKWPM1306K",
+    "K M STEEL"
+   ],
+   [
+    "ALNPR6691Q",
+    "LAGANA SKYLINE"
+   ],
+   [
+    "AHTPK8285F",
+    "MAHAVEER KIRAN DEVI"
+   ],
+   [
+    "AFTPG5378K",
+    "AAHNA INFRA PROJECTS"
+   ]
+  ],
+  "cin_state": [
+   [
+    "U43299TS2026PTC222735",
+    "TS",
+    "SRINIVASA LAXMI CONSTRUCTION CO PRIVATE LIMITED"
+   ],
+   [
+    "U25920TS2026PTC220949",
+    "TS",
+    "MRL Thermal Technologies Private Limited"
+   ],
+   [
+    "U46909OD2026PTC055548",
+    "OD",
+    "METALIX SOLUTIONS PRIVATE LIMITED"
+   ],
+   [
+    "U85500TS2026FTC216958",
+    "TS",
+    "GUS EDUCATION INDIA PRIVATE LIMITED"
+   ],
+   [
+    "U28299TS2025PTC194215",
+    "TS",
+    "QED BLACKBOX FACTORIES PRIVATE LIMITED"
+   ],
+   [
+    "U46699TS2023PTC173750",
+    "TS",
+    "SRI VENKATESWARA MERCHANTS PRIVATE LIMITED"
+   ],
+   [
+    "U88900TS2024NPL182533",
+    "TS",
+    "SAI SARADA SERVICE FOUNDATION"
+   ],
+   [
+    "U43222TS2024PTC188044",
+    "TS",
+    "LANDSKY GREEN ENERGIES PRIVATE LIMITED"
+   ],
+   [
+    "U45201MN2008PTC008240",
+    "MN",
+    "BIKUND INFRA PRIVATE LIMITED"
+   ],
+   [
+    "U51909AP2013PTC088754",
+    "TS",
+    "TWINKLING STAR ELECTRICALS INDIA PRIVATE LIMITED"
+   ]
+  ],
+  "cin_name": [
+   [
+    "U74899DL1986ULT023290",
+    "SADHU AUTO PRIVATE LIMITED"
+   ],
+   [
+    "U01611UP2023PTC181379",
+    "PARDRSHITA FARMER PRODUCER COMPANY LIMITED"
+   ],
+   [
+    "U45201BR1975SGC001208",
+    "BIHAR RAJYA PUL NIRMAN NIGAM LIMITED"
+   ]
+  ]
+ }
+}
