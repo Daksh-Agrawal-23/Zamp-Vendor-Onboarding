@@ -1,0 +1,1096 @@
+[
+ {
+  "tag": "idrbt_1104",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2374",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "none",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2223",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_588",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "repaired",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1543",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "repaired",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1951",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "repaired",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "none",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_301",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "repaired",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_44",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2352",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "repaired",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1172",
+  "truth": "UTIB0000426",
+  "read": "UTIB0000426",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0000426",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0000426",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0004410",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0000426"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1983",
+  "truth": "ICIC0006308",
+  "read": "ICIC0006308",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "ICIC0006308",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints ICIC0006308",
+     "cheque names ICIC"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "ICIC0003494",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_agrees",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": [
+     "cheque prints ICIC0006308"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1027",
+  "truth": "ICIC0006308",
+  "read": "ICIC0006308",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "ICIC0006308",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints ICIC0006308",
+     "cheque names ICIC"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "ICIC0003494",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_agrees",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": [
+     "cheque prints ICIC0006308"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2071",
+  "truth": "ICIC0006308",
+  "read": "ICIC0006308",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "ICIC0006308",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints ICIC0006308",
+     "cheque names ICIC"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "ICIC0003494",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_agrees",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": [
+     "cheque prints ICIC0006308"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1716",
+  "truth": "ICIC0006308",
+  "read": "ICIC0006308",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "ICIC0006308",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_differs",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints ICIC0006308",
+     "MICR band shows bank digits 229",
+     "cheque names ICIC"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "ICIC0003494",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_agrees",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": [
+     "cheque prints ICIC0006308"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2309",
+  "truth": "CNRB0002854",
+  "read": "CNRB0002854",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "CNRB0002854",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints CNRB0002854",
+     "cheque names CNRB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2263",
+  "truth": "CNRB0002854",
+  "read": "CNRB0002854",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "CNRB0002854",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints CNRB0002854",
+     "cheque names CNRB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1327",
+  "truth": "CNRB0002854",
+  "read": "CNRB0002854",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "CNRB0002854",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "none",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints CNRB0002854",
+     "cheque names CNRB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1491",
+  "truth": "CNRB0002854",
+  "read": "CNRB0002854",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "CNRB0002854",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints CNRB0002854",
+     "cheque names CNRB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1179",
+  "truth": "SYNB0003011",
+  "read": "SYNB0003011",
+  "how": "format-only",
+  "cases": {
+   "true": {
+    "claimed": "SYNB0003011",
+    "verdict": "weak",
+    "signals": {
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "micr": "bank_differs",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "MICR band shows bank digits 025",
+     "cheque names SYNB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2412",
+  "truth": "SYNB0003011",
+  "read": "SYNB0003011",
+  "how": "format-only",
+  "cases": {
+   "true": {
+    "claimed": "SYNB0003011",
+    "verdict": "weak",
+    "signals": {
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "micr": "bank_agrees",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque names SYNB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_2210",
+  "truth": "SYNB0003011",
+  "read": "SYNB0003011",
+  "how": "format-only",
+  "cases": {
+   "true": {
+    "claimed": "SYNB0003011",
+    "verdict": "weak",
+    "signals": {
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque names SYNB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "idrbt_1923",
+  "truth": "SYNB0003011",
+  "read": "SYNB0003011",
+  "how": "format-only",
+  "cases": {
+   "true": {
+    "claimed": "SYNB0003011",
+    "verdict": "weak",
+    "signals": {
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque names SYNB"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "cheque_1.jpg",
+  "truth": "UTIB0004410",
+  "read": "UTIB0004410",
+  "how": "repaired",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0004410",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "none",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0004410",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0004410"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "cheque_2.jpg",
+  "truth": "UTIB0004410",
+  "read": "UTIB0004410",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "UTIB0004410",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "none",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "HDFC0003637",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints UTIB0004410",
+     "cheque names UTIB"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "none",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints UTIB0004410"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "cheque_5.jpg",
+  "truth": "HDFC0003637",
+  "read": "HDFC0003637",
+  "how": "repaired",
+  "cases": {
+   "true": {
+    "claimed": "HDFC0003637",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_differs",
+     "bank_name": "none"
+    },
+    "notes": [
+     "cheque prints HDFC0003637",
+     "MICR band shows bank digits 240"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "cheque_6.jpg",
+  "truth": "HDFC0003637",
+  "read": "HDFC0003637",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "HDFC0003637",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_differs",
+     "bank_name": "none"
+    },
+    "notes": [
+     "cheque prints HDFC0003637",
+     "MICR band shows bank digits 240"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "cheque_7.jpg",
+  "truth": "ICIC0003494",
+  "read": "ICIC0003494",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "ICIC0003494",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_differs",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints ICIC0003494",
+     "MICR band shows bank digits 032",
+     "cheque names ICIC"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_agrees",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints ICIC0003494"
+    ]
+   }
+  }
+ },
+ {
+  "tag": "cheque_8.jpg",
+  "truth": "ICIC0003494",
+  "read": "ICIC0003494",
+  "how": "exact",
+  "cases": {
+   "true": {
+    "claimed": "ICIC0003494",
+    "verdict": "confirmed",
+    "signals": {
+     "ifsc_text": "agree",
+     "micr": "agree",
+     "bank_name": "agree",
+     "branch": "agree"
+    },
+    "notes": []
+   },
+   "wrong_bank": {
+    "claimed": "UTIB0000426",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_differs",
+     "bank_name": "differs"
+    },
+    "notes": [
+     "cheque prints ICIC0003494",
+     "MICR band shows bank digits 229",
+     "cheque names ICIC"
+    ]
+   },
+   "same_bank_other_branch": {
+    "claimed": "ICIC0006308",
+    "verdict": "contradicted",
+    "signals": {
+     "ifsc_text": "contradict",
+     "micr": "bank_agrees",
+     "bank_name": "agree"
+    },
+    "notes": [
+     "cheque prints ICIC0003494"
+    ]
+   }
+  }
+ }
+]

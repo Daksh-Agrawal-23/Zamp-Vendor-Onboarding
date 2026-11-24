@@ -1,0 +1,16 @@
+# Hard roadblocks: things that cannot be done in a prototype
+
+Only items that are impossible without production access, legal agreements or real customer data. Everything else found by the market-readiness audit is fixed in the prototype.
+
+| # | Roadblock | Why it cannot be solved here | What the prototype does instead | What production needs |
+|---|---|---|---|---|
+| 1 | Live GSTN taxpayer lookup (status, legal name, composition) | GST data is served only through licensed GST Suvidha Providers (GSPs/ASPs); needs an agreement, credentials and rate limits | Registry adapter over a generated registry; every outage or "not found" becomes Pending (R26), never a silent pass | GSP contract; adapter implementing `gst_lookup`; contract tests against the sandbox |
+| 2 | PAN verification and PAN-Aadhaar operative status | NSDL/UTIITSL verification is licensed and paid; needs entity registration | Simulated PAN registry; R17 logic (20% TDS when inoperative) is real | Licensed PAN verification API |
+| 3 | Bank account penny-drop / beneficiary name | Needs a banking partner (sponsor bank/payment aggregator), real money movement and RBI-compliant consent | Simulated penny-drop with beneficiary-name truncation behaviour; paid check is run last and skipped when cheaper checks fail | Partner bank or aggregator API; per-call cost accounting |
+| 4 | Udyam and MCA live status | Udyam and MCA21 have no public machine-readable lookup for arbitrary entities in this environment | Format checks plus simulated lookups; MCA master data (UP and Maharashtra, 1.05M records) used for calibration only | Licensed MCA data feed; Udyam verification service |
+| 5 | Real vendor documents for evaluation | GST certificates, PAN cards and cancelled cheques carry personal and financial data; none are publicly published at scale. Public cheque sets are specimens or synthetic | Evaluation uses public specimen cheques (12 photos, 112 scans of 4 banks), public synthetic invoices, and fictional layout-faithful certificates | A consented pilot: 200-500 real submissions labelled by the AP team, to calibrate thresholds on real traffic |
+| 6 | Sanctions lists beyond OFAC (UN, EU, India MHA/SEBI debarred, PEP databases) | Network allowlist blocks the publishers; PEP data is commercial | OFAC SDN list screening with measured false-flag rate | Commercial screening provider or licensed feeds, refreshed daily |
+| 7 | DPDP Act compliance sign-off | Needs legal review, a registered consent flow and a data-protection officer | Consent text, retention purge, encryption at rest, masked logs, role-based access | Legal review; DPIA; data-processing agreements with the registries above |
+| 8 | SSO, KMS-managed keys, WORM audit storage | Needs the customer's identity provider and cloud account | Local users with hashed passwords, a generated field key, an append-only anchor file | OIDC/SAML, cloud KMS, object-lock bucket for audit anchors |
+
+Not a roadblock (and therefore fixed or planned in the prototype): reading cheques and certificates under real capture conditions, name matching on Indian name variants, vendor communication, security basics, concurrency, restart recovery, mobile layout, accessibility, ERP export.

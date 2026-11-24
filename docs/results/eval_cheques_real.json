@@ -1,0 +1,134 @@
+[
+ {
+  "file": "cheque_1.jpg",
+  "tesseract": [
+   "UTIB0004410",
+   "exact"
+  ],
+  "rapid": [
+   "UTIB0004410",
+   "exact"
+  ]
+ },
+ {
+  "file": "cheque_10.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_11.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_12.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_2.jpg",
+  "tesseract": [
+   "UTIB0004410",
+   "exact"
+  ],
+  "rapid": [
+   "UTIB0004410",
+   "exact"
+  ]
+ },
+ {
+  "file": "cheque_3.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_4.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_5.jpg",
+  "tesseract": [
+   "HDFC0003637",
+   "exact"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_6.jpg",
+  "tesseract": [
+   "HDFC0003637",
+   "exact"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_7.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_8.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ },
+ {
+  "file": "cheque_9.jpg",
+  "tesseract": [
+   null,
+   "none"
+  ],
+  "rapid": [
+   null,
+   "none"
+  ]
+ }
+]

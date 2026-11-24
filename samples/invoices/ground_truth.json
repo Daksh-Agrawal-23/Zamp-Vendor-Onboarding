@@ -1,0 +1,86 @@
+[
+ {
+  "file": "syn_syn_0_00922.png",
+  "quality": "clean",
+  "layout": "classic",
+  "supplier_gstin": "33IZWCN4373L2Z3",
+  "buyer_gstin": null
+ },
+ {
+  "file": "syn_syn_0_01087.png",
+  "quality": "clean",
+  "layout": "minimal",
+  "supplier_gstin": "24UKSPK0359J1ZB",
+  "buyer_gstin": "24GIGPV8009U1Z5"
+ },
+ {
+  "file": "syn_syn_0_01204.png",
+  "quality": "clean",
+  "layout": "classic",
+  "supplier_gstin": "33PXYCS3338E4ZB",
+  "buyer_gstin": "08UVKPU0129U1Z3"
+ },
+ {
+  "file": "syn_syn_0_00827.png",
+  "quality": "clean",
+  "layout": "handwritten",
+  "supplier_gstin": "09LPLFK1385I3ZQ",
+  "buyer_gstin": "09FHWCW6482Q1ZA"
+ },
+ {
+  "file": "syn_syn_0_01585.jpg",
+  "quality": "scan",
+  "layout": "handwritten",
+  "supplier_gstin": "29HFZFC9494E9ZS",
+  "buyer_gstin": "09BKGFP4534R1ZX"
+ },
+ {
+  "file": "syn_syn_0_00024.jpg",
+  "quality": "scan",
+  "layout": "minimal",
+  "supplier_gstin": "27PXMFW3368K3ZO",
+  "buyer_gstin": "27VBHCK1536B4Z6"
+ },
+ {
+  "file": "syn_syn_0_01954.jpg",
+  "quality": "scan",
+  "layout": "classic",
+  "supplier_gstin": "08IJTFZ2852S1Z4",
+  "buyer_gstin": "08GTBCI2103N9Z9"
+ },
+ {
+  "file": "syn_syn_0_00351.jpg",
+  "quality": "scan",
+  "layout": "classic",
+  "supplier_gstin": "19JRSFG3108Z4ZW",
+  "buyer_gstin": "19NNEPB7925A2ZY"
+ },
+ {
+  "file": "syn_syn_0_01028.jpg",
+  "quality": "photo",
+  "layout": "minimal",
+  "supplier_gstin": "36WFKCF7712V4ZP",
+  "buyer_gstin": null
+ },
+ {
+  "file": "syn_syn_0_00630.jpg",
+  "quality": "photo",
+  "layout": "handwritten",
+  "supplier_gstin": "08AFQPF5921K2Z2",
+  "buyer_gstin": "24VDEPA6915T2ZM"
+ },
+ {
+  "file": "syn_syn_0_01963.jpg",
+  "quality": "photo",
+  "layout": "thermal",
+  "supplier_gstin": "24OKOCS2610S1ZW",
+  "buyer_gstin": "24IHYPN7523G1ZO"
+ },
+ {
+  "file": "syn_syn_0_01253.jpg",
+  "quality": "photo",
+  "layout": "classic",
+  "supplier_gstin": "29BMXCD8118S1ZM",
+  "buyer_gstin": "09FAWFB1456M4ZK"
+ }
+]
